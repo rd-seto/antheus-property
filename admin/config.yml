@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 backend:
   name: git
-  repo: username/repo-name # Ganti dengan nama repository GitHub Anda
+  repo: rd-seto/antheus-property
   branch: main
 
 media_folder: "static/uploads" # Folder untuk menyimpan file media
@@ -344,4 +343,3 @@ collections:
       - { name: "feedback", label: "Testimoni", widget: "text" }
       - { name: "image", label: "Foto", widget: "image" }
       - { name: "order", label: "Urutan", widget: "number", default: 1 }
->>>>>>> 2647568 (Initial commit)
