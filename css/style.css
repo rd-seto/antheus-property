@@ -569,3 +569,81 @@ h6,
     font-size: 30px; /* Ensure the icon size is appropriate */
   }
   
+  .floating-social {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.floating-social .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.floating-social .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Floating Social Media Style */
+.floating-social {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.floating-social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+
+/* Warna Ikon Media Sosial */
+.facebook {
+    background-color: #1877F2; /* Facebook Blue */
+}
+
+.twitter {
+    background-color: #1DA1F2; /* Twitter Blue */
+}
+
+.instagram {
+    background: radial-gradient(circle at 40% 48%,rgb(227, 219, 131) 30%,rgb(220, 90, 65) 60%, #d6249f 90%, #285AEB); /* Instagram Gradient */
+}
+
+.youtube {
+    background-color: #FF0000; /* YouTube Red */
+}
+
+.pinterest {
+    background-color: #BD081C; /* Pinterest Red */
+}
+
+.tiktok {
+    background-color: #010101; /* TikTok Black */
+}
+
+.linkedin {
+    background-color: #0A66C2; /* LinkedIn Blue */
+}
+
+/* Hover Effect */
+.floating-social a:hover {
+    transform: scale(1.1);
+}
